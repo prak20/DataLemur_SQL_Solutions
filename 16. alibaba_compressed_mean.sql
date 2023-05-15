@@ -1,0 +1,1 @@
+Select round(1.0*sum(item_count*order_occurrences)/sum(order_occurrences),1) from items_per_order;
